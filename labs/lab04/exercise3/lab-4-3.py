@@ -1,12 +1,11 @@
 hours = float(input())
 if hours <= 2:
-    mallCharges = 0
+    parkingFee = 0
 else:
-    if hours > 5:
-        mallCharges = 3
+    if hours <= 5:
+        parkingFee = (hours - 2) * 2
     else:
-        mallCharges = 2
-parkingFee = hours * mallCharges
-if parkingFee >= 30:
+        parkingFee = (hours - 5) * 3 + (3 * 2)
+if parkingFee > 30:
     parkingFee = 30
 print(parkingFee)
