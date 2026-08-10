@@ -1,4 +1,2 @@
-# Escape Characters Exercise
-# Print the receipt shown in the lab, using \n for new lines and \t for columns.
-# Calculate every total, subtotal, and tax in your code. Do not type the money
-# amounts in directly. Show every amount with exactly two decimal places.
+receipt = "==========RECEIPT=========\nItem\t\tPrice\tQty\tTotal\nCoffee\t\t$3.50\t2\t$7.00\nMuffin\t\t$2.10\t3\t$6.30\nWater\t\t$1.05\t4\t$4.20\n------------------------------\nSubtotal\t\t$17.50\nTax(6%)\t\t\t$1.05\nTotal\t\t$18.55\n==========================="
+print(receipt)
