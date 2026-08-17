@@ -1,3 +1,5 @@
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -66,4 +68,4 @@ CLAUDE.md
 .claude*
 
 # My private notes
-labs/lab07/secret_notes.txt
+labs/lab07/test.txt
