@@ -1,11 +1,18 @@
 score = int(input())
 total_a = 0
 total_b = 0
+count = 0
 
-while score != -1:
-    total_a += score
+while score != -1 :
+    count +=1
+    if count % 2 == 1:
+        total_a += score
+    else :
+        total_b += score
+
     score = int(input())
-    total_b += score
+        
+    
 
 if total_a > total_b :
     winner = "A"
